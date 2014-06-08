@@ -1,7 +1,8 @@
 mapbox-facebook-usermap
 =======================
 
-Worldmap facebook usermap
+This class is used to showcase a worldmap where users can pin their current location pulled by facebook.
+
 
 Will be updated soon
 
