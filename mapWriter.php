@@ -9,7 +9,7 @@
 
 */
 require_once('APPdatabase.php');
-require_once('../map/facebook/facebook.php');
+require_once('facebook/facebook.php');
 
 
 
