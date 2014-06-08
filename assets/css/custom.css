@@ -1,0 +1,41 @@
+html, body {color:#dedede;}
+#map {
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+    z-index: -1
+}      
+#markers {
+    marker-allow-overlap:true;
+    }
+.toggle-button { 
+padding: 10px;
+}
+
+.text-color{
+    color:#666;
+    
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {margin-top:6px;padding:9px;background-color: #5c2759;
+border-color: #693065;}
+
+.btn-primary {
+    background-color: #5c2759;
+    border-color: #693065;
+    
+}
+
+.btn-lg, .btn-group-lg>.btn {
+
+padding:4px 4px 4px 0px;
+    
+}
+
+.well { color:#666;}
+
+.navbar-inverse {
+    background-color:rgba(243, 242, 242, 0.81);
+    color: #666;
+}
