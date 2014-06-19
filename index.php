@@ -137,7 +137,9 @@ $mw = new mapWriter;
 
   <script>
    var map = L.mapbox.map('map', '<?php $mw->showMapboxID(); ?>', {
-  zoomControl: false
+  zoomControl: false,
+  minZoom: 2,
+  worldCopyJump: true
 });
   new L.Control.Zoom({ position: 'bottomleft' }).addTo(map);<?php
 
